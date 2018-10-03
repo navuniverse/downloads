@@ -210,7 +210,7 @@ common: &default_settings
   # guide before you enable this feature: https://docs.newrelic.com/docs/transition-guide-distributed-tracing
   # Default is false.
   distributed_tracing:
-    enabled: false
+    enabled: true
 
   # Cross Application Tracing adds request and response headers to
   # external calls using supported HTTP libraries to provide better
